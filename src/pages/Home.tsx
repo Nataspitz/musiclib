@@ -3,6 +3,7 @@ import { Button } from '../fragments/button/button/Button';
 import { StyleBackgroundImage } from '../components/backgroundImage/StyleBackgroundImage';
 import { StyleContainerMain } from '../components/containers/StyleContainerMain';
 import logo from "../assets/logo.png"
+import { SectionMainHome } from '../components/sections/sectionMainHome/SectionMainHome';
 
 export function Home() {
 
@@ -29,6 +30,7 @@ export function Home() {
             <p>Entre com o Spotify</p>
           </div>
         </Button>
+        {/* <SectionMainHome /> */}
       </StyleContainerMain>
     </StyleBackgroundImage>
   );
